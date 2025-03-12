@@ -1,12 +1,12 @@
-export default function Search({ searcTerm, setSearchTerm }) {
+export default function Search({ searchTerm, setSearchTerm }) {
   return (
     <div className="search">
       <div>
         <img src="search.svg" alt="search" />
         <input
           type="text"
-          placeholder="Search through thousands of movies"
-          value={searcTerm}
+          placeholder="Pesquise entre milhares de filmes"
+          value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
