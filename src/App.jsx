@@ -46,6 +46,7 @@ function App() {
     } finally {
       setIsLoading(false);
     }
+    
   }
 
   useEffect(() => {
